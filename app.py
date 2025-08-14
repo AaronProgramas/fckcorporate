@@ -1,10 +1,10 @@
 import streamlit as st
 import io
 
-st.set_page_config(page_title="Conversor CSV", layout="centered")
+st.set_page_config(page_title="Aaron's Magical CSV Tool", layout="centered")
 
 st.title("Conversor de CSV: Vírgula para Ponto e Vírgula")
-st.write("Faça upload de um arquivo `.csv` e baixe a versão com `;` como separador.")
+st.write("Usa essa parada aqui pq o TI fica de sacanagem.")
 
 # Upload do arquivo
 uploaded_file = st.file_uploader("Escolha um arquivo CSV", type=["csv"])
